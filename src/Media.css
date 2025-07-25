@@ -1,0 +1,479 @@
+
+@media screen and (max-width:1440px){
+    .visualisations__hero{height: 70vh !important;}
+    
+}
+
+@media screen and (max-width:1199px){
+    
+}
+
+
+@media screen and (max-width:1024px){
+    .hero__right h1,
+    .visualisations__hero h1 {
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+
+    .logo {
+        font-size: 2.5rem;
+    }
+
+    .main__btn {
+        padding: .5rem .75rem;
+    }
+
+    .section__title,
+    .news__headline h1 {
+        font-size: 2.5rem;
+    }
+
+    .about__box h5 {
+        font-size: 1.25rem;
+        margin: 1rem 0 1rem;
+    }
+
+    .container {
+        max-width: 90%;
+        padding: 5rem 0;
+    }
+
+    section.ceo .container >p {
+        font-size: 1.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .news__box {
+        width: 45%;
+    }
+
+    .news__grid{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    section.testimonials .container {
+        flex-direction: column;
+    }
+
+    .testimonials__right {
+        width: 100%;
+        margin-top: 5rem;
+    }
+
+    .testimonial:nth-child(4) {
+        transform: translateX(0%);
+    }
+    
+}
+
+@media screen and (max-width:768px){
+
+    .hero {
+        height: auto;
+        flex-direction: column-reverse;
+        padding: 5rem 0;
+    }
+
+    .hero__right {
+        width: 100%;
+        position: relative;
+        margin-top: 5rem;
+    }
+
+    .hero__left {
+        width: 100%;
+        transform: translateX(-25%);
+    }
+
+    .hero__right h1 {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+
+    .about .container {
+        gap: 5rem;
+        align-items: flex-start;
+        position: relative;
+        flex-direction: column;
+    }
+
+    .about__left, .about__right,
+    .section3__left, .section3__right,
+    .testimonials__left {
+        width: 100%;
+    }
+
+    section.ceo .container >p {
+        font-size: 1.25rem;
+    }
+
+    section.section2 .container {
+        flex-direction: column-reverse;
+        gap: 5rem;
+    }
+
+    .section2__right,
+    .section2__left,
+    .story__left,
+    .story__right{
+        width: 100%;
+        padding: 0;
+    }
+
+    section.section3 .container,
+    section.story .container,
+    section.intro,
+    .jobs__list .container {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .about__left,
+    .section2__right,
+    .section3__left,
+    section.news .container,
+    .testimonials__left {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    section.news .section__title,
+    section.news .main__btn{margin-left: 0;}
+
+    section.cta .container p {
+        width: 90%;
+    }
+
+    .fixedHeader .logo {
+        font-size: 2rem;
+    }
+
+    header a {
+        font-size: 1.15rem;
+    }
+
+    .toggleContainer{
+        display: flex !important;
+    }
+
+    header{
+        justify-content: space-between;
+        transition: all ease-in-out .2s;
+        align-items: center;
+    }
+
+    header nav{
+        position: absolute;
+    }
+
+    header nav {
+        position: absolute;
+        top: 99%;
+        left: 0;
+        width: 100%;
+        background-color: var(--color-white);
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.16);
+        height: 0;
+        padding: 0 5%;
+        overflow: hidden;
+        transition: all ease-in-out .5s;
+    }
+
+    header:has(.checkbox1:checked){
+        background-color: var(--color-white);
+    }
+
+    header:has(.checkbox1:checked) nav{
+        height: 75vh;
+        padding: 2rem 5%;
+    }
+
+
+    header>nav>ul {
+        display: flex;
+        gap: 2rem;
+        font-size: 1.25rem;
+        height: 100%;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .toggleContainer {
+        overflow: hidden;
+        width: 5rem;
+        justify-content: flex-end;
+        padding: .25rem 0;
+    }
+
+    .story__left ul {
+        padding-left: 5%;
+    }
+
+    .about__hero h1,
+    .main__news h1,
+    .main__contentful h1{
+        font-size: 2.5rem;
+    }
+
+    .about__hero{
+        height: 50vh;
+    }
+
+    .service {
+        flex-direction: column;
+    }
+    .service:nth-of-type(2),
+    .job__info {
+        flex-direction: column-reverse;
+    }
+
+    .service>div,
+    .filters,
+    .jobs__container,
+    .job__info__left,
+    .job__info__right{
+        width: 100%;
+    }
+
+    .service>div h5{font-size: 1.75rem;}
+    .member {
+        width: 75%;
+        margin-bottom: 7rem;
+    }
+
+    .footer__top .logo,
+    .main__news .intro__left,
+    .main__news .intro__right,
+    .job__list__container ul,
+    .news__text__left,
+    .news__text__right {
+        width: 100%;
+    }
+
+
+    header:has(.checkbox1:checked) a{
+        color: var(--color-darkgray) !important;
+    }
+    
+    .main__news {
+        padding: 10rem 0 10rem;
+    }
+
+    .main__news .intro__right{
+        padding-left: 0;
+    }
+
+    .main__news .intro, .main__news h1{
+        width: 90%;
+    }
+
+    .intro__right h2,
+    .job__header h2 {
+        font-size: 2rem;
+    }
+
+    .about__hero .hero__content{
+        width: 90%;
+    }
+
+    .search__form {       
+        justify-content: center;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .jobs__list .container,
+    section.job__details .container{
+        padding-top: 2rem;
+    }
+
+    .jobs__list .container h3{
+        font-size: 1.25rem;
+    }
+
+    .job__content__top {
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .job__item,
+    .job__content__bottom {
+        flex-wrap: wrap;
+    }
+
+    .job__item__left {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .job__item>a{
+        margin-top: 2rem;
+    }
+
+    .job__header,
+    .job__info__right{
+        margin-bottom: 3rem;
+    }
+
+    .job__info{
+        padding-left: 0;
+    }
+
+    .news__image {
+        width: 100%;
+        position: relative;
+        top: 15%;
+        height: 100%;
+    }
+
+    .news__headline div,
+    .news__headline h1{
+        width: 90%;
+    }
+
+    .news__text .container {
+        flex-direction: column;
+    }
+
+    .news__content{
+        text-align: left;
+    }
+
+    .fixedSubmenu{
+        display: none;
+    }
+
+    .main__contentful {
+        padding: 5rem 0 5rem;
+    }
+
+    .main__contentful .illustration {
+        height: 25rem;
+    }
+
+    .container__job--dist{
+        height: 80rem;
+    }
+
+    .word__cloud{
+        max-width: 100%;
+    }
+    .viz__field{
+        padding: 3rem 5%;
+    }
+    
+    .viz__container{
+        border: none;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .unique__viz--cat{
+        width: 100% !important;
+    }
+
+    .viz__container>div{
+        width: 100rem !important;
+
+    }
+
+    .chloropeth{
+        width: 50rem !important;
+    }
+
+    .visualisations__hero{
+        height: auto;
+        padding-top: 10rem;
+    }
+
+    .visualisations__hero h1{
+        font-size: 2.5rem;
+    }
+
+    .visualisations__hero ul{
+        flex-direction: column;
+        border-bottom: none;
+    }
+
+    .visualisations__hero ul li{
+        font-size: 1rem;
+        padding-bottom: .25rem;
+    }
+
+    .unique__pie{
+        width: 100%;
+        margin-bottom: 5rem !important;
+    }
+
+    .unique__pie h5{
+        translate: 0% 5rem;
+    }
+
+}
+
+
+@media screen and (max-width:498px){
+    .hero {
+        padding: 10rem 0 5rem;
+    }
+    .hero__right,
+    .news__box {
+        width: 100%;
+    }
+
+    .hero__left{
+        scale: 1.5;
+        transform: translateX(-20%);
+    }
+
+    header {
+        padding: 1.5rem 5% 1.5rem;
+    }
+
+    .logo{font-size: 2rem;}
+
+    .about__box,
+    .news__box,
+    .testimonial {
+        width: 100%;
+    }
+
+    .news__content p {
+        max-width: 90%;
+    }
+
+    .footer__top ul {
+        gap: 2rem;
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+
+    .footer__bottom {
+        padding: 1rem 5%;
+    }
+
+    .news__headline h1{
+        font-size: 1.75rem;
+        color: white;
+        font-weight: 500;
+    }
+
+    .news__text {
+        padding-top: 5rem;
+    }
+
+    .news__text__left>h2,
+    .unique__pie:has(h5~div>div>svg) h5, .unique__viz--cat h5{
+        font-size: 1.5rem;
+    }
+
+    .main__contentful h1{
+        font-size: 1.75rem;
+    }
+
+
+}
