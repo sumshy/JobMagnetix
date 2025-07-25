@@ -18,7 +18,7 @@ function About(props) {
     
         {
             name: 'Sumaya Abdulramah',
-            role: 'Digital News Writer',
+            role: 'Software Developer',
             image:  images.sumaya,
             linkedin: 'https://www.linkedin.com/in/sumaya-abdulramah/',
             github: '',
@@ -189,7 +189,7 @@ function About(props) {
                     <div className="partners__list flex">
                         <div className="partner">
                             <a href="https://www.powerlearnprojectafrica.org/" target='_blank'>
-                                <img src={images.gcu} alt="" loading='lazy'/>
+                                <img src={images.plpp} alt="" loading='lazy'/>
                             </a>
                         </div>
                         
