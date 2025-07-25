@@ -15,89 +15,7 @@ function About(props) {
     }, [])
 
     const teamMembers = [
-        {
-            name: 'Pacifique Rubasha',
-            role: 'Frontend Developer',
-            image: images.pac,
-            linkedin: 'www.linkedin.com/in/pacifique-rubasha-444b90206',
-            github: 'https://github.com/pacifiquerubasha',
-            instagram: '',
-            facebook: '',
-            more:{
-                interests: ['Frontend Dev', 'Mobile Dev', 'Cybersecurity'],
-                summary:`
-                Passionate React frontend developer from Congo, eager to create delightful web experiences. 
-                Committed to continuous learning and growth. Driven to make a positive impact through coding. 
-                Ready to contribute skills and creativity to meaningful projects. 
-                Open to collaborative opportunities in the web development realm.
-                `
-            }
-        },
-
-        {
-            name: 'Emmanuel Okorwoit',
-            role: 'Project Manager',
-            image:  images.emmanuel,
-            linkedin: 'https://www.linkedin.com/in/emmanuel-okorwoit/',
-            github: '',
-            instagram: '',
-            facebook: '',
-            more:{
-                interests: ['Research', 'Big Data', 'Startups'],
-                summary:'Ambitious kenyan student exploring Research, Big Data, and Startups. Eager to innovate and make an impact in the tech world.'
-
-            }
-
-        },
-        {
-            name: 'Hallan Warigia',
-            role: 'Backend Developer',
-            image:  images.allan,
-            linkedin: 'https://www.linkedin.com/in/hallan-warigia/',
-            github: '',
-            instagram: '',
-            facebook: '',
-            more:{
-                interests: ['Backend Dev', 'Mobile Dev', 'Cybersecurity'],
-                summary:'Aspiring student backend dev from Kenya passionate about Node.js, creating delightful web experiences with code. Eager to learn and grow. '
-            }
-           
-        },
-        {
-            name: 'Funke Aderoju',
-            role: 'Content Writer',
-            image:  images.esther,
-            linkedin: 'https://mu.linkedin.com/in/funke-aderoju-856b85215',
-            github: 'https://github.com/FunkeEsther',
-            instagram: 'https://instagram.com/fu_esther?igshid=OGQ5ZDc2ODk2ZA==',
-            facebook: '',
-            more:{
-                interests: ['Environmental Sustainability',`Gender Equality and Women's Rights Advocacy`,`Women's Health and Wellness`],
-                summary:`
-                I am Funke Aderoju, a passionate computer science student from Nigeria, with a love for coding. 
-                My mission is to inspire women to join the tech industry, bridging the gender gap in technology 
-                through advocacy and empowering initiatives. Eager to contribute my skills to create an inclusive
-                 and innovative digital world.
-
-                `
-            }
-        },
-
-        {            
-            name: 'Wamuyu Gitonga',
-            role: 'Project Manager',
-            image:  images.wamuyu,
-            linkedin: 'https://www.linkedin.com/in/wamuyu-gitonga/',
-            github: '',
-            instagram: '',
-            facebook: '',
-            more:{
-                interests: ['Project Management', 'Research', 'Startups'],
-                summary:'Ambitious Kenyan student exploring Project Management, Research, and Startups. Eager to innovate and make an impact in the tech world.'
-            }
-
-        },
-
+    
         {
             name: 'Sumaya Abdulramah',
             role: 'Digital News Writer',
@@ -107,8 +25,8 @@ function About(props) {
             instagram: '',
             facebook: '',
             more:{
-                interests: ['Digital News Writing', 'Research', 'Startups'],
-                summary:'Ambitious Kenyan student exploring Digital News Writing, Research, and Startups. Eager to innovate and make an impact in the tech world.'
+                interests: ['Business consultant', 'Research', 'Startups', 'and Business consultant'],
+                summary:'Ambitious Kenyan student exploring Software Development, Research, Startups and Business Consultancy. Eager to innovate and make an impact in the tech world.'
             }
         },
         ];
@@ -127,10 +45,10 @@ function About(props) {
                 <div className="container flex">
                     <div className="story__left">
                         <h3 className='section__title' data-aos="fade-down" data-aos-duration="1000">
-                        Our <span className='text-blue'>Story</span>
+                        My <span className='text-blue'>Story</span>
                         </h3>
                         <p className='section__desc' data-aos="fade-up" data-aos-duration="1000">
-                        Together, these six teams worked collaboratively, each contributing their unique expertise to build a global job search website that would empower individuals in their career exploration. Through their collective efforts, they created a platform that connects job seekers with global opportunities, breaks down barriers, and propels individuals towards international career success.
+                        I have worked collaboratively with different tech tools to build a global job search website that would empower individuals in their career exploration. Through this collective efforts, I have created a platform that connects job seekers with global opportunities, breaks down barriers, and propels individuals towards international career success.
 
                         </p>
                         <ul>
@@ -197,7 +115,7 @@ function About(props) {
                         <div>
                             <i className='fas fa-globe'></i>
                             <h5>International Networking</h5>
-                            <p>Through our platform, job seekers can expand their professional network, gain insights from industry experts, and build meaningful connections that can enhance their career prospects.</p>
+                            <p>Through this platform, job seekers can expand their professional network, gain insights from industry experts, and build meaningful connections that can enhance their career prospects.</p>
 
                         </div>
                     </div>
@@ -219,9 +137,9 @@ function About(props) {
 
             <section className="team">
                 <div className="container flex flex-col">
-                    <h3 className='section__title' data-aos="fade-down" data-aos-duration="1000"><span className='text-blue'>Meet</span> The Team</h3>
+                    <h3 className='section__title' data-aos="fade-down" data-aos-duration="1000"><span className='text-blue'>Meet</span> Mwaah</h3>
                     <p className='section__desc text-center'>
-                        Our team of six is a powerhouse of talent, passion, and expertise dedicated to empowering individuals worldwide in their pursuit of career success
+                        I am passionate, goal-oriented individual dedicated to empowering individuals worldwide in their pursuit of career success.
                     </p>
 
                     <div className="team__members flex">
@@ -270,18 +188,8 @@ function About(props) {
 
                     <div className="partners__list flex">
                         <div className="partner">
-                            <a href="https://www.alueducation.com/" target='_blank'>
-                                <img src={images.alu} alt="" loading='lazy'/>
-                            </a>
-                        </div>
-                        <div className="partner">
-                            <a href="https://www.gcu.ac.uk/" target='_blank'>
+                            <a href="https://www.powerlearnprojectafrica.org/" target='_blank'>
                                 <img src={images.gcu} alt="" loading='lazy'/>
-                            </a>
-                        </div>
-                        <div className="partner">
-                            <a href="https://remotive.com/" target='_blank'>
-                                <img src={images.remotive} alt="" loading='lazy'/>
                             </a>
                         </div>
                         
