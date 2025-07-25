@@ -1,4 +1,4 @@
-# websquad
+# Job magnetix
 
 
 https://rapidapi.com/kazamos/api/remote-jobs-api
